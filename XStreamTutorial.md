@@ -19,7 +19,7 @@ This will add XStream to your project.
 3. Now, you can call the XStream class and create
 a new XStream object with
 			
-	XStream xstream = new XStream();
+	> XStream xstream = new XStream();
 			
 4. While your dealing with XStream you'll be converting XML to Java objects.
 You'll need to give xstream access to any classes you may be using. This 
