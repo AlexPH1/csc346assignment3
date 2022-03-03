@@ -39,6 +39,7 @@ related to the completely wrong class. So, it's a good idea to
 explicitly tell xstream which elements are related to what.
 			
 ### Dealing with a Simple XML File
+
 1. Converting an object to XML
 Let's say I have a class Business that
 contains fields for a location and a name. I will
