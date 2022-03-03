@@ -4,12 +4,12 @@
 
 #### Prerequisites: Installation of Maven and IntelliJ
 		
-Add the code below to your XML file
+Add the code below to your pom.xml file
 		
 	<dependency>
-	<groupId&>com.thoughtworks.xstream</groupId>
- 	<artifactId&>xstream&</artifactId>
-  	<version>1.4.19&>/version>
+	<groupId>com.thoughtworks.xstream</groupId>
+ 	<artifactId>xstream</artifactId>
+  	<version>1.4.19>/version>
 	</dependency>
 
 2. Upon doing so, refresh Maven using the
@@ -38,11 +38,11 @@ could run into problems. Xstream may determine an element to be
 related to the completely wrong class. So, it's a good idea to 
 explicitly tell xstream which elements are related to what.
 			
-Dealing with a Simple XML File
-	  	1. Converting an object to XML
-		Let's say I have a class Business that
-		contains fields for a location and a name. I will
-		first create an object of this class.
+### Dealing with a Simple XML File
+1. Converting an object to XML
+Let's say I have a class Business that
+contains fields for a location and a name. I will
+first create an object of this class.
 			
 	Business doughnuts = new Business("Saint Joseph", "Good Doughnuts");
 		
