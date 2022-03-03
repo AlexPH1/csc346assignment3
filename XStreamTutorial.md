@@ -5,7 +5,7 @@
 #### Prerequisites: Installation of Maven and IntelliJ
 		
 Add the code below to your pom.xml file
-		
+			
 	<dependency>
 	<groupId>com.thoughtworks.xstream</groupId>
  	<artifactId>xstream</artifactId>
@@ -19,18 +19,18 @@ This will add XStream to your project.
 3. Now, you can call the XStream class and create
 a new XStream object with
 			
- 	XStream xstream = new XStream(); 
+		XStream xstream = new XStream();
 			
 4. While your dealing with XStream you'll be converting XML to Java objects.
 You'll need to give xstream access to any classes you may be using. This 
 would be done by the xstream method:
 				
- 	xstream.allowTypeHierarchy(Some_Class.class); 
+ 		xstream.allowTypeHierarchy(Some_Class.class);
 				
 5.In scenario's where you may wish to convert XML from or to an object,
 it would be in your best interest to utilize xstream's alias method.
 			
- 	xstream.alias("Some_XML_Element", some_Class.class) 
+ 		xstream.alias("Some_XML_Element", some_Class.class)
 			
 This method tells xstream what class its given element is related to.
 If I'm performing to or from XML without specifying the alias we
@@ -45,11 +45,11 @@ Let's say I have a class Business that
 contains fields for a location and a name. I will
 first create an object of this class.
 			
-	Business doughnuts = new Business("Saint Joseph", "Good Doughnuts"); 
+		Business doughnuts = new Business("Saint Joseph", "Good Doughnuts"); 
 		
 Now I can convert this object into XML by using
 			
-	String objectToXML = xstream.toXML(doughnuts); 
+		String objectToXML = xstream.toXML(doughnuts); 
 			
 The XML equivalent of this doughnuts object
 will look like this
@@ -68,7 +68,7 @@ a class; the opposite of what was just demonstrated.
 2. In order to create an object from a XML file
 first you must convert the XML file
 
- 	xstream.fromXML(objectToXML); 
+ 		xstream.fromXML(objectToXML); 
 
 However we want this to go into an object
 of a class in this case let's recreate the
