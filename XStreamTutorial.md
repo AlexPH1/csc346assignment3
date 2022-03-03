@@ -2,7 +2,7 @@
 
 ### Setting up XStream
 
-####Prerequisites: Installation of Maven and IntelliJ
+#### Prerequisites: Installation of Maven and IntelliJ
 		
 Add the code below to your XML file
 		
