@@ -1,8 +1,8 @@
-Using XStream
+# Using XStream
 
-Setting up XStream
+### Setting up XStream
 
-Prerequisites: Installation of Maven and IntelliJ
+## Prerequisites: Installation of Maven and IntelliJ
 		
 Add the code below to your XML file
 		
@@ -75,7 +75,7 @@ So now we'd be looking at:
 	Business doughnutsMadeFromXML = 
 	(Business)xstream.fromXML(objectToXML);
 				
-Dealing with a nested XML File
+### Dealing with a nested XML File
 
 1.Dealing with a nested XML file is very similar to dealing with a simple XML file.
 The one thing necessary is to utilize another one of xstream's built in methods:
@@ -85,7 +85,7 @@ The one thing necessary is to utilize another one of xstream's built in methods:
 Just as specified, xstream will skip over any XML that does not relate to the aliased class.
 All other steps remain exactly the same!
 
-Dealing with an Arraylist within an XML File
+### Dealing with an Arraylist within an XML File
 
 1.To deal with an arraylist within an XML file we will use two classes. One class will
 be used as a template for holding data captured from the XML file, identically
