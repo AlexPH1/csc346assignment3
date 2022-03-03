@@ -1,40 +1,16 @@
-<html>
-<title>XStream Tutorial</title>
-<head>
-<style>
-header{
-background-color:blue}
-header{box-shadow: 5px 3px;}
-header{text-shadow: 1px 1px white;}
-h2{box-shadow: 5px 10px;
-color:#0000FF}
-#topgg{box-shadow: 5px 10px;}
-body {
-text-align: center;
-background-color: brown;
-font-family: Garamond;
-font-size:14;
-background-image: url('notebook.png');
-background-repeat: no-repeat;
-background-size:cover;
-}
-</style>
-</head>
-<body>
-<div class="toppg">
-<header><center><h1>Using XStream</h1></header>
-	<h2><center>Setting up XStream</center></h2></div>
-	<p>
-		<b>Prerequisites: Installation of Maven and IntelliJ</b><br>
-		<br>
-		<b>1.</b> Add the code below to your XML file<br>
-		<b><br>
-		&lt;dependency&gt;<br>
-  			&lt;groupId&gt;com.thoughtworks.xstream&lt;/groupId&gt;<br>
+
+Using XStream
+Setting up XStream
+		Prerequisites: Installation of Maven and IntelliJ
+		
+		Add the code below to your XML file
+		
+		<dependency>
+  		groupId&gt;com.thoughtworks.xstream&lt;/groupId&gt;<br>
  			&lt;artifactId&gt;xstream&lt;/artifactId&gt;<br>
   		&lt;version&gt;1.4.19&lt;/version&gt;<br>
 		&lt;/dependency&gt;<br></b>
-<br>
+
 		<b>2.</b> Upon doing so, refresh Maven using the<br>
 			small on screen widget.<br> 
 			This will add XStream to your project.<br>
